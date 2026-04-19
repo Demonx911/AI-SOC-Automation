@@ -82,7 +82,7 @@ Python Alert Handler
         │ (How to fix the issue manually)      │
         └──────────────────────────────────────┘
 ```
-```md
+
 1. Attacker initiates an attack (e.g., brute force or network scan)  
 2. Wazuh detects suspicious activity  
 3. Python alert handler processes the event  
@@ -95,7 +95,7 @@ Python Alert Handler
    - Explanation  
    - Summary  
    - Step-by-step remediation guidance 
-```
+
 ---
 
 ## 🔁 Workflow
