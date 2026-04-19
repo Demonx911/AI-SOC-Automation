@@ -109,17 +109,48 @@ Python Alert Handler
 7. If auto-fix fails → AI provides manual guidance
 
 ---
-
 ## 💣 Attack Simulation
 
-* 🔐 SSH Brute Force Attack
-* 🌐 Network Scanning (Nmap)
-* 🚫 Multiple Failed Login Attempts
+### ⚡ Auto-Mitigation (Automatically Fixed)
 
-✔️ Detected by Wazuh
-✔️ Blocked via firewall
-✔️ Alert sent via Telegram
-✔️ AI explanation generated
+These attacks can be detected and mitigated automatically by the system:
+
+- 🔐 SSH Brute Force Attack  
+- 🌐 Network Scanning (Nmap)  
+- 🚫 Multiple Failed Login Attempts  
+
+✔️ Detected by Wazuh  
+✔️ Attacker IP blocked automatically (iptables)  
+✔️ Telegram alert sent  
+✔️ AI explanation generated  
+
+
+### ⚠️ Non-Automatable Attacks (Manual Intervention Required)
+
+These attacks require human intervention and AI guidance:
+
+- 🔓 Privilege Escalation Attack  
+- 🧬 Advanced Persistent Threats (APT)  
+- ⚙️ Misconfigurations or Insider Attacks  
+
+✔️ Detected by Wazuh  
+✔️ Telegram alert sent  
+❌ Auto-fix not possible  
+🧠 AI provides:
+   - Attack explanation  
+   - Risk assessment  
+   - Step-by-step remediation guidance  
+
+---
+
+### 🧠 Smart Handling Logic
+
+The system intelligently decides:
+
+- If the attack is simple → auto mitigation  
+- If the attack is complex → alert + AI guidance  
+
+This ensures no attack is ignored, even when automation is not possible.
 
 ---
 
