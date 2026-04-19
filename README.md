@@ -53,6 +53,49 @@ Security Operations Centers (SOCs) face:
 
 ![Architecture](docs/architecture.png)
 
+
+🔍 Flow Diagram
+```text
+Attacker (Kali Linux)
+        ↓
+Wazuh Agent (Target System)
+        ↓
+Wazuh Manager (Detection Server)
+        ↓
+Python Alert Handler
+        ↓
+        ┌───────────────────────────────┐
+        │ Can Auto Fix the Attack?      │
+        └───────────────────────────────┘
+             ↓ YES                         ↓ NO
+ ┌────────────────────────┐      ┌────────────────────────────┐
+ │ Auto Mitigation        │      │ Telegram Alert              │
+ │ (Block IP / Fix Issue) │      │ (Manual Action Required)    │
+ └────────────────────────┘      └────────────────────────────┘
+             ↓                              ↓
+             └──────────────┬───────────────┘
+                            ↓
+                  AI Analysis Engine
+                            ↓
+        ┌──────────────────────────────────────┐
+        │ Explanation + Summary + Guidance     │
+        │ (How to fix the issue manually)      │
+        └──────────────────────────────────────┘
+```
+```md
+1. Attacker initiates an attack (e.g., brute force or network scan)  
+2. Wazuh detects suspicious activity  
+3. Python alert handler processes the event  
+4. The system evaluates whether automatic mitigation is possible  
+
+- If YES → the attack is blocked automatically  
+- If NO → a Telegram alert is sent for manual intervention  
+
+5. AI analyzes the attack and provides:
+   - Explanation  
+   - Summary  
+   - Step-by-step remediation guidance 
+```
 ---
 
 ## 🔁 Workflow
