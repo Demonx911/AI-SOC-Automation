@@ -156,14 +156,15 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ## 📸 Demo
 
-## 💻 Attack
+## 💻 Attack (Kali Linux)
 
+![Attack](docs/attack.png)
 
 ### 🔍 Detection (Wazuh)
 
 ![wazuh](docs/detection.png)
 
-### 📩 Telegram Alert
+### 📩  Alert (Telegram)
 
 ![Telegram](docs/Telegramalert.png)
 
