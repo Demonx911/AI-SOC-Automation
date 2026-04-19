@@ -154,29 +154,49 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ---
 
-## 📸 Demo
+### 📸 Demo
 
-## 💻 Attack (Kali Linux)
+### 💻 Attack (Kali Linux)
 
-![Attack](docs/attack.png)
+![ip](docs/kali_ip.png) ![Attack](docs/attack.png)
+
+---
+
+### 🎯 Target (Agent)
+
+![ip](docs/Agent_ip.png) ![ip](docs/Agent_ip.png) 
+
+---
 
 ### 🔍 Detection (Wazuh)
 
 ![wazuh](docs/detection.png)
 
+---
 ### 📩  Alert (Telegram)
 
 ![Telegram](docs/TelegramAlert(2).png)
 
+---
 ### 🚫 Auto Mitigation
 
 ![ip block](docs/ip_block.png)
 
+---
 ### 🧠 AI Analysis
 
 ![Telegram](docs/Telegramalert.png)
 
 ---
+
+### ⚠️ Non-Automatable Attacks (Manual Intervention Required)
+
+![ip](docs/Agent_ip.png) ![ip](docs/Agent_ip.png) 
+
+---
+
+![privilage](docs/non(auto fix attack).png) 
+
 
 ## 📊 Results
 
