@@ -164,7 +164,7 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ### 🎯 Target (Agent)
 
-![ip](docs/Agent_ip.png) ![ip](docs/Agent_ip.png) 
+![ip](docs/Agent_ip.png)
 
 ---
 
@@ -191,7 +191,7 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ### ⚠️ Non-Automatable Attacks (Manual Intervention Required)
 
-![ip](docs/Agent_ip.png) ![ip](docs/Agent_ip.png) 
+![ip](docs/Agent_ip.png) ![ip](docs/agent.png) 
 
 ---
 
