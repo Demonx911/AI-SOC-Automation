@@ -156,13 +156,16 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ## 📸 Demo
 
+## 💻 Attack
+
+
 ### 🔍 Detection (Wazuh)
 
 ![wazuh](docs/detection.png)
 
 ### 📩 Telegram Alert
 
-![Telegram](docs/Telegram alert.png)
+![Telegram](docs/Telegramalert.png)
 
 ### 🚫 Auto Mitigation
 
