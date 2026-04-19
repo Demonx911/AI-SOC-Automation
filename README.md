@@ -166,7 +166,7 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ### 📩  Alert (Telegram)
 
-![Telegram](docs/Telegramalert.png)
+![Telegram](docs/TelegramAlert(2).png)
 
 ### 🚫 Auto Mitigation
 
@@ -174,7 +174,7 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ### 🧠 AI Analysis
 
-
+![Telegram](docs/Telegramalert.png)
 
 ---
 
