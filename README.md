@@ -8,7 +8,7 @@
 
 ## 🚨 Problem
 
-Security Operations Centers (SOCs) face:
+Security Operations Centers (SOC) face:
 
 * Alert fatigue from thousands of logs
 * Slow manual incident response
@@ -45,7 +45,7 @@ Security Operations Centers (SOCs) face:
 | SIEM          | Wazuh Manager               |
 | Automation    | Python                      |
 | Alerting      | Telegram Bot API            |
-| AI Engine     | OpenAI API                  |
+| AI Engine     | openrouter Ai               |
 
 ---
 
@@ -195,8 +195,9 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ---
 
-![privilage](docs/non(auto fix attack).png) 
+![privilage](docs/privilage.png)
 
+---
 
 ## 📊 Results
 
@@ -215,7 +216,7 @@ This ensures no attack is ignored, even when automation is not possible.
 * Python
 * Linux (iptables)
 * Telegram Bot API
-* OpenAI API
+* openrouter Ai API
 
 ---
 
