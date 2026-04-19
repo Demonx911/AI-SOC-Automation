@@ -156,13 +156,13 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ### 📸 Demo
 
-### 💻 Attack (Kali Linux)
+### 💣 Attack Simulation (Kali Linux)
 
 ![ip](docs/kali_ip.png) ![Attack](docs/attack.png)
 
 ---
 
-### 🎯 Target (Agent)
+### 🎯 Target System (Agent)
 
 ![ip](docs/Agent_ip.png)
 
@@ -189,13 +189,26 @@ This ensures no attack is ignored, even when automation is not possible.
 
 ---
 
+
 ### ⚠️ Non-Automatable Attacks (Manual Intervention Required)
+
+Some attacks require human decision-making and cannot be safely automated.
+
+Example:
+- Privilege escalation
+- Insider threats
 
 ![ip](docs/Agent_ip.png) ![ip](docs/agent.png) 
 
 ---
 
 ![privilage](docs/privilage.png)
+
+---
+
+## 🔄 Workflow
+
+Attack → Detection → Alert → Response (Auto / Manual)
 
 ---
 
