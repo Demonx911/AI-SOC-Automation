@@ -127,19 +127,19 @@ Python Alert Handler
 
 ### 🔍 Detection (Wazuh)
 
-*Add screenshot here*
+![wazuh](docs/detection.png)
 
 ### 📩 Telegram Alert
 
-*Add screenshot here*
+![Telegram](docs/Telegram alert.png)
 
 ### 🚫 Auto Mitigation
 
-*Add terminal screenshot here*
+![ip block](docs/ip_block.png)
 
 ### 🧠 AI Analysis
 
-*Add output screenshot here*
+
 
 ---
 
