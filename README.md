@@ -214,22 +214,31 @@ Attack → Detection → Alert → Response (Auto / Manual)
 
 ## 📊 Results
 
-| Feature             | Status |
-| ------------------- | ------ |
-| Real-time Detection | ✅      |
-| Auto Response       | ✅      |
-| Telegram Alerts     | ✅      |
-| AI Explanation      | ✅      |
 
+| Feature             | Status | Impact                          |
+| ------------------- | ------ | ------------------------------- |
+| Real-time Detection | ✅      | Immediate threat visibility     |
+| Auto Response       | ✅      | Reduced response time to seconds|
+| Telegram Alerts     | ✅      | Instant notification system     |
+| AI Explanation      | ✅      | Better incident understanding   |
 ---
 
 ## 🛠️ Tech Stack
 
-* Wazuh SIEM
-* Python
-* Linux (iptables)
-* Telegram Bot API
-* openrouter Ai API
+- Wazuh SIEM  
+- Python  
+- Linux (iptables)  
+- Telegram Bot API  
+- OpenRouter API (LLM-based analysis)  
+
+---
+
+## 💣 Attacks Simulated
+
+- SSH Brute Force Attack  
+- Privilege Escalation  
+- Unauthorized Access Attempts  
+
 
 ---
 
@@ -242,6 +251,14 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## ▶️ Usage
+
+Run the automation script:
+
+```bash
+python3 main.py
+```
 
 ## 🚨 Example Alert
 
